@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Calorie Counter</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Calorie Counter</h1>
+        <form id="calorie-form">
+            <input type="text" id="food" placeholder="name of food" required>
+            <input type="number" id="calories" placeholder="calories" required>
+            <button type="submit">Add</button>
+        </form>
+        <ul id="calorie-list"></ul>
+        <div class="total">
+            Total Calories: <span id="total-calories">0</span>
+        </div>
+    </div>
+</body>
+</html>
